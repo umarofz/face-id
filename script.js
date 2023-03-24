@@ -23,7 +23,7 @@ function startWebcam() {
 }
 
 function getLabeledFaceDescriptions() {
-  const labels = ["Abdulazizbek Umarov", "Mukhlisa Umarova", "Muhammad Usmonov", "Shahrona Davranova", "Abdulloh Umarov", "Farruh Mamurov", "Amina Khashimova", "Iskandar Mamurov", "Muslima Umarova"];
+  const labels = ["Abdulazizbek Umarov", "Mukhlisa Umarova", "Muhammad Usmonov", "Shahrona Davranova", "Abdulloh Umarov", "Farruh Mamurov", "Amina Khashimova", "Iskandar Mamurov", "Muslima Umarova", "Saida Kayumova", "Ezoza Hasanova"];
   return Promise.all(
     labels.map(async (label) => {
       const descriptions = [];
