@@ -23,7 +23,7 @@ function startWebcam() {
 }
 
 function getLabeledFaceDescriptions() {
-  const labels = ["Abdulazizbek", "Messi", "Muhammad", "Shahrona"];
+  const labels = ["Abdulazizbek", "Mukhlisa", "Muhammad", "Shahrona", "Abdulloh", "Farruh", "Amina"];
   return Promise.all(
     labels.map(async (label) => {
       const descriptions = [];
